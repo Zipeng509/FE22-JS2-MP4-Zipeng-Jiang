@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "del-cli": "^5.0.0",
+    "parcel": "^2.8.3"
+  },
+  "scripts": {
+    "dev": "npx parcel ./src/index.html",
+    "build": "npx parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "clean": "npm cache clean --force && npx del-cli ./.parcel-cache ./docs ./dist"
+  }
+}

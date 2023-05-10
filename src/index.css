@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    max-width: 382px;
+    margin: auto;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 16px;
+}
+.buttons > button {
+    flex-grow: 1;
+    display: block;
+    padding: 16px;
+    margin: 0px;
+}
+
+#display {
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    text-align: right;
+}
+
+h1 {
+    color: white;
+}
